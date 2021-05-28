@@ -1,0 +1,11 @@
+.site {
+  &__footer {
+    background-color: $clr-footer-bg;
+    border-top: 1px solid #ffe6d4;
+    bottom: 0;
+    padding: 15px 0;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+  }
+}

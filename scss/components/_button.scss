@@ -1,0 +1,30 @@
+.btn {
+  border: none;
+  cursor: pointer;
+  font-family: inherit;
+  font-weight: 500;
+  outline: none;
+  transition: all 150ms;
+
+  &-primary {
+    color: $clr-text-white;
+    background-color: rgba($clr-btn-primary, 0.65);
+    padding: 0 20px;
+
+    &:hover,
+    &:focus {
+      background-color: rgba($clr-btn-primary, 0.85);
+    }
+
+    &:active {
+      background-color: rgba($clr-btn-primary, 1);
+    }
+  }
+}
+
+.admin-login {
+  &__submit {
+    text-transform: uppercase;
+    width: 100%;
+  }
+}

@@ -1,0 +1,16 @@
+input {
+  border: 1px solid $clr-border-default;
+  outline: none;
+  padding: 0 15px;
+  width: 100%;
+
+  &:focus {
+    border: 1px solid $clr-border-active;
+  }
+}
+
+.admin-login {
+  &__field {
+    margin-bottom: 15px;
+  }
+}

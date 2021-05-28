@@ -1,0 +1,160 @@
+*,
+*::after,
+*::before {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 16px;
+  scroll-behavior: smooth;
+}
+
+body {
+  line-height: 1.5;
+  min-height: 100vh;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+body {
+  color: #2a324b;
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 0.5px;
+}
+
+h1,
+h3 {
+  font-weight: normal;
+}
+
+h1 {
+  font-size: 3.125rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+.admin-login__logo {
+  font-family: "Teko", sans-serif;
+  letter-spacing: 3px;
+  line-height: 1;
+}
+
+.admin-login__logo span:nth-child(1) {
+  color: #1071cb;
+}
+
+.admin-login__logo span:nth-child(2) {
+  color: #52bcfa;
+}
+
+.admin-login__title {
+  margin-top: -5px;
+}
+
+.admin-login__title span {
+  font-weight: 500;
+}
+
+.site__footer span {
+  opacity: 0.5;
+  font-size: 0.75rem;
+}
+
+input,
+button {
+  border-radius: 3px;
+  min-height: 35px;
+}
+
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.flex-dir-col {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.flex-ai-c {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.site__footer {
+  background-color: #fdf3ec;
+  border-top: 1px solid #ffe6d4;
+  bottom: 0;
+  padding: 15px 0;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+}
+
+input {
+  border: 1px solid #dddddd;
+  outline: none;
+  padding: 0 15px;
+  width: 100%;
+}
+
+input:focus {
+  border: 1px solid #767b91;
+}
+
+.admin-login__field {
+  margin-bottom: 15px;
+}
+
+.btn {
+  border: none;
+  cursor: pointer;
+  font-family: inherit;
+  font-weight: 500;
+  outline: none;
+  -webkit-transition: all 150ms;
+  transition: all 150ms;
+}
+
+.btn-primary {
+  color: white;
+  background-color: rgba(0, 141, 75, 0.65);
+  padding: 0 20px;
+}
+
+.btn-primary:hover, .btn-primary:focus {
+  background-color: rgba(0, 141, 75, 0.85);
+}
+
+.btn-primary:active {
+  background-color: #008d4b;
+}
+
+.admin-login__submit {
+  text-transform: uppercase;
+  width: 100%;
+}
+
+.admin-login__main {
+  margin: auto;
+  -webkit-transform: translateY(-20%);
+          transform: translateY(-20%);
+}
+
+.admin-login__form {
+  margin: 2em 0;
+  min-width: 14.375em;
+}
+/*# sourceMappingURL=style.css.map */

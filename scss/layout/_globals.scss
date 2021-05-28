@@ -1,0 +1,17 @@
+input,
+button {
+  border-radius: $b-radius-default;
+  min-height: 35px;
+}
+
+.flex {
+  display: flex;
+
+  &-dir-col {
+    flex-direction: column;
+  }
+
+  &-ai-c {
+    align-items: center;
+  }
+}

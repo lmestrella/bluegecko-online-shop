@@ -1,0 +1,11 @@
+.admin-login {
+  &__main {
+    margin: auto;
+    transform: translateY(-20%);
+  }
+
+  &__form {
+    margin: 2em 0;
+    min-width: 14.375em;
+  }
+}
