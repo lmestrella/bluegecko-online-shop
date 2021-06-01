@@ -1,0 +1,10 @@
+.site {
+  &__header {
+    background-color: $clr-primary;
+    padding: 15px;
+  }
+
+  &__nav {
+    padding-top: 10px;
+  }
+}

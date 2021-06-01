@@ -13,7 +13,7 @@
 </head>
 <body class="admin-login flex">
   <main class="admin-login__main flex flex-dir-col flex-ai-c">
-    <h1 class="admin-login__logo">
+    <h1 class="site__logo">
       <span>BLUE</span><span>GECKO</span>
     </h1>
     <h3 class="admin-login__title"><span>Admin</span> Login</h3>
