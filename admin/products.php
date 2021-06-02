@@ -14,26 +14,7 @@
   <title>BLUEGECKO</title>
 </head>
 <body class="site">
-  <header class="site__header flex flex-dir-col">
-    <div class="content-wrapper">
-      <h1 class="site__logo">
-        <span>BLUE</span><span>GECKO</span>
-      </h1>
-      <span class="site__datetime">
-        May 24, 2021 | 02:13:46 PM
-      </span>
-      <nav class="site__nav">
-        <ul role="list" class="site__nav-list flex">
-          <li class="site__nav-item">
-            <a href="#_" class="site__nav-link site__nav-link-selected">Products</a>
-          </li>
-          <li class="site__nav-item">
-            <a href="#_" class="site__nav-link">Categories</a>
-          </li>
-        </ul>
-      </nav>
-    </div>
-  </header>
+  <?php include_once("./includes/header.inc.php") ?>
 
   <section class="section">
     <div class="content-wrapper">
@@ -115,6 +96,6 @@
     </div>
   </section>
 
-  <?php include_once("../footer.php") ?>
+  <?php include_once("./includes/footer.inc.php") ?>
 </body>
 </html>
