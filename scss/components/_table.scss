@@ -1,0 +1,107 @@
+.table {
+  border-collapse: collapse;
+  width: 100%;
+
+  &__row {
+    &-header {
+      border-bottom: 3px solid $clr-border-default;
+    }
+
+    &-data {
+      --border-opacity: 0;
+      --bg-color: $clr-white;
+
+      background-color: var(--bg-color);
+      border-bottom: 1px solid rgba($clr-border-default, 0.35);
+      border-left: 3px solid rgba($clr-border-default, var(--border-opacity));
+      border-right: 3px solid rgba($clr-border-default, var(--border-opacity));
+      outline: 1px solid rgba($clr-border-default, var(--border-opacity));
+
+      &:nth-of-type(even) {
+        --bg-color: #fafafa;
+      }
+
+      &:hover,
+      &:focus {
+        --bg-color: #f4f6ff;
+        --border-opacity: 1;
+
+        border-bottom: 1px solid rgba($clr-border-default, 0);
+      }
+    }
+  }
+
+  &__header {
+    padding: 10px 0;
+  }
+
+  &__data {
+    // border-bottom: 1px solid rgba($clr-border-default, 0.5);
+    min-width: min-content;
+  }
+
+  &__header,
+  &__data {
+    padding: 10px 15px;
+    vertical-align: top;
+  }
+
+  &-plain {
+    .table__row-data {
+      &:nth-of-type(even) {
+        --bg-color: $clr-white;
+      }
+
+      &:hover,
+      &:focus {
+        --bg-color: #f4f6ff;
+      }
+    }
+  }
+}
+
+.product,
+.category {
+  &__table {
+    &-img {
+      background: #dfdfdf;
+      border-radius: 5px;
+      height: 45px;
+      margin: 10px auto;
+      margin: auto;
+      width: 45px;
+
+      // Placeholder only
+      i {
+        font-size: 30px;
+        margin: auto;
+        opacity: 0.25;
+      }
+    }
+
+    &-actions {
+      width: 70px; // change according to the number of icons
+      text-align: center;
+
+      .action {
+        opacity: 0.65;
+
+        &:hover {
+          opacity: 1;
+        }
+
+        &:not(:last-of-type) {
+          margin-right: 5px;
+        }
+
+        &-edit {
+          color: #f5bc00;
+        }
+
+        &-delete {
+          color: #dd453a;
+        }
+      }
+    }
+  }
+}

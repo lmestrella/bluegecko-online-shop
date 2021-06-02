@@ -1,5 +1,5 @@
 body {
-  color: $clr-text-primary;
+  color: $clr-primary;
   font-family: "Roboto", sans-serif;
   letter-spacing: 0.5px;
 }
@@ -19,6 +19,16 @@ h3 {
 
 // login page
 .admin-login {
+  &__title {
+    margin-top: -5px;
+
+    span {
+      font-weight: 500;
+    }
+  }
+}
+
+.site {
   &__logo {
     font-family: "Teko", sans-serif;
     letter-spacing: 3px;
@@ -35,20 +45,62 @@ h3 {
     }
   }
 
-  &__title {
-    margin-top: -5px;
+  &__datetime {
+    color: $clr-white;
+    font-size: 0.75rem;
+  }
 
-    span {
-      font-weight: 500;
+  &__header {
+    text-align: center;
+  }
+
+  &__nav {
+    &-item {
+      &:not(:last-of-type) {
+        margin-right: 30px;
+      }
+
+      &-logout {
+        margin-left: auto;
+      }
+    }
+
+    &-link {
+      border-bottom: 2px solid rgba($clr-white, 0);
+      color: rgba($clr-white, 0.8);
+      padding-bottom: 5px;
+      text-decoration: none;
+      transition: all 150ms;
+
+      &-selected {
+        border-bottom: 2px solid rgba($clr-white, 1);
+        color: rgba($clr-white, 0.9);
+        font-weight: 600;
+      }
     }
   }
-}
 
-.site {
   &__footer {
     span {
       opacity: 0.5;
       font-size: 0.75rem;
     }
+  }
+}
+
+.table {
+  &__row {
+    &-header,
+    &-data {
+      font-size: 14px;
+    }
+  }
+
+  &__header {
+    text-align: left;
+  }
+
+  &__data {
+    color: rgba($clr-primary, 0.8);
   }
 }
