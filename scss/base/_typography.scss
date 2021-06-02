@@ -56,7 +56,13 @@ h3 {
 
   &__nav {
     &-item {
-      margin-right: 30px;
+      &:not(:last-of-type) {
+        margin-right: 30px;
+      }
+
+      &-logout {
+        margin-left: auto;
+      }
     }
 
     &-link {
@@ -67,12 +73,9 @@ h3 {
       transition: all 150ms;
 
       &-selected {
+        border-bottom: 2px solid rgba($clr-white, 1);
         color: rgba($clr-white, 0.9);
         font-weight: 600;
-      }
-
-      &:hover {
-        border-bottom: 2px solid rgba($clr-white, 1);
       }
     }
   }

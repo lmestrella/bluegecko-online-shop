@@ -45,9 +45,23 @@
     padding: 10px 15px;
     vertical-align: top;
   }
+
+  &-plain {
+    .table__row-data {
+      &:nth-of-type(even) {
+        --bg-color: $clr-white;
+      }
+
+      &:hover,
+      &:focus {
+        --bg-color: #f4f6ff;
+      }
+    }
+  }
 }
 
-.product {
+.product,
+.category {
   &__table {
     &-img {
       background: #dfdfdf;
@@ -66,7 +80,7 @@
     }
 
     &-actions {
-      min-width: 70px;
+      width: 70px; // change according to the number of icons
       text-align: center;
 
       .action {
@@ -81,7 +95,7 @@
         }
 
         &-edit {
-          color: #ddc53a;
+          color: #f5bc00;
         }
 
         &-delete {
