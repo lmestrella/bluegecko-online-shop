@@ -1,3 +1,5 @@
+<?php include_once("./includes/login.inc.php") ?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -20,10 +22,10 @@
     <form action="" method="POST" class="admin-login__form">
       <input type="text" class="admin-login__field" name="user" placeholder="Username"><br>
       <input type="password" class="admin-login__field" name="pass" placeholder="Password"><br>
-      <button class="admin-login__submit btn btn-primary">SUBMIT</button>
+      <button class="admin-login__submit btn btn-primary" name="submit">SUBMIT</button>
     </form>
   </main>
   
-  <?php include_once("../footer.php") ?>
+  <?php include_once("./includes/footer.inc.php") ?>
 </body>
 </html>
