@@ -24,7 +24,7 @@ const displayDateTime = () => {
     `${String(date.getSeconds()).padStart(2, "0")} ` +
     `${date.getHours() < 12 ? "AM" : "PM"}`;
 
-  siteDateTime.innerHTML = `${currentDate} | ${currentTime}`;
+  siteDateTime.innerText = `${currentDate} | ${currentTime}`;
 };
 
 setInterval(displayDateTime, 1000);

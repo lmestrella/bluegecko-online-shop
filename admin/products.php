@@ -10,7 +10,8 @@
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Teko:wght@500&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="../scss/style.css">
+  <link rel="stylesheet" href="../assets/scss/style.css">
+  <script src="../assets/js/admin.js" type="text/javascript" defer></script>
   <title>BLUEGECKO</title>
 </head>
 <body class="site">
@@ -21,7 +22,7 @@
       <div class="section__header flex">
         <h3 class="section__header-title"><span>Product</span> Details</h3>
         <input type="text" class="section__header-search" placeholder="Search">
-        <button class="section__header-add  btn btn-primary">+ Add New</button>
+        <button class="section__header-add  btn btn-primary">+ Add New Product</button>
       </div>
       <table class="table">
         <tr class="table__row-header">

@@ -5,7 +5,7 @@
   }
 
   &__form {
-    margin: 2em 0;
     min-width: 14.375em;
+    width: Min(14.375em, 80%);
   }
 }

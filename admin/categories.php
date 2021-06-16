@@ -10,8 +10,8 @@
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Teko:wght@500&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="../scss/style.css">
-  <script src="../js/admin.js" type="text/javascript" defer></script>
+  <link rel="stylesheet" href="../assets/scss/style.css">
+  <script src="../assets/js/admin.js" type="text/javascript" defer></script>
   <title>BLUEGECKO | Categories</title>
 </head>
 <body>

@@ -12,6 +12,13 @@ input {
 
 .admin-login {
   &__field {
-    margin-bottom: 15px;
+    margin-top: 15px;
+
+    &.field-error {
+      &,
+      &:focus {
+        border: 1px solid $clr-error-red;
+      }
+    }
   }
 }

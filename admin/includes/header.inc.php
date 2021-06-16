@@ -1,9 +1,17 @@
+<?php
+  session_start();
+  date_default_timezone_set("Asia/Manila");
+  if (!isset($_SESSION['adminUid'])) header("location: ./index.php");
+?>
+
 <header class="site__header flex flex-dir-col">
   <div class="content-wrapper">
     <h1 class="site__logo">
       <span>BLUE</span><span>GECKO</span>
     </h1>
-    <span class="site__datetime"></span>
+    <span class="site__datetime">
+      <?php echo date("F d, Y | g:i:s A"); ?>
+    </span>
     <nav class="site__nav">
       <ul role="list" class="site__nav-list flex">
         <li class="site__nav-item">

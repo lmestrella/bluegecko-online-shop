@@ -46,6 +46,7 @@ h3 {
 }
 
 .admin-login__title {
+  margin-bottom: 1em;
   margin-top: -5px;
 }
 
@@ -114,6 +115,13 @@ h3 {
 
 .table__data {
   color: rgba(23, 33, 61, 0.8);
+}
+
+span.field-error {
+  color: #cf2323;
+  display: inline-block;
+  font-size: 12px;
+  width: 100%;
 }
 
 input,
@@ -217,7 +225,11 @@ input:focus {
 }
 
 .admin-login__field {
-  margin-bottom: 15px;
+  margin-top: 15px;
+}
+
+.admin-login__field.field-error, .admin-login__field.field-error:focus {
+  border: 1px solid #cf2323;
 }
 
 .btn {
@@ -245,6 +257,7 @@ input:focus {
 }
 
 .admin-login__submit {
+  margin-top: 15px;
   text-transform: uppercase;
   width: 100%;
 }
@@ -397,7 +410,7 @@ input:focus {
 }
 
 .admin-login__form {
-  margin: 2em 0;
   min-width: 14.375em;
+  width: Min(14.375em, 80%);
 }
 /*# sourceMappingURL=style.css.map */

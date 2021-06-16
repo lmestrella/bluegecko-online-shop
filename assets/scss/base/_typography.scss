@@ -20,6 +20,7 @@ h3 {
 // login page
 .admin-login {
   &__title {
+    margin-bottom: 1em;
     margin-top: -5px;
 
     span {
@@ -102,5 +103,15 @@ h3 {
 
   &__data {
     color: rgba($clr-primary, 0.8);
+  }
+}
+
+// Error message
+span {
+  &.field-error {
+    color: $clr-error-red;
+    display: inline-block;
+    font-size: 12px;
+    width: 100%;
   }
 }
